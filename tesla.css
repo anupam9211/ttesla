@@ -1,0 +1,603 @@
+body
+{
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden;
+}
+#preloader{
+	height: 100vh; 
+   background: #000 url(pic8.gif) no-repeat center;
+   width: 100%;
+   position: fixed;
+   z-index: 100;
+
+}
+.nav
+{
+	min-height:80px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 0px 20px;
+    z-index: 100%;
+}
+.nav img
+{
+	position: relative;
+	padding: 10px;
+}
+.nav li 
+{
+	list-style: none;
+	height: 20px;
+box-sizing: border-box;
+}
+.nav  li a
+{
+  margin:10px;
+  text-decoration: none;
+  color: black;
+  font-family: "Rubik",sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+.nav  li:hover
+{  transition-duration: .3s;
+	animation-direction:alternate-reverse;
+	background-color:#b0c4de;
+	border-radius:8px;
+}
+.nav .model
+{
+	position: relative;
+	display: flex;
+    
+}
+.nav .sh
+{
+	display:flex;
+}
+@media screen
+{
+	body
+	{
+		
+	}
+}
+
+.models
+{
+	 width: 100%;
+    height: 950px;
+    background-image: url(pic1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.models h1
+{
+	margin-top: 130px;
+	font-family: "Rubik",sans-serif;
+	color: #393c41;
+	font-weight: bold;
+}
+.models span
+{
+	font-family: "Rubik",sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: #393c41;
+    box-sizing: border-box;
+}
+.models span b:hover
+{
+	text-decoration: underline;
+}
+.models p
+{
+	margin-top: 590px;
+
+}
+.models p button
+{
+	margin: 10px;
+	width: 180px;
+	height:30px;
+	background-color: transparent;
+	border: 1px solid black;
+    border-radius: 10px;
+}
+.models p button a 
+{
+	text-decoration: none;
+	color: black;
+	font-family:"Rubik",sans-serif;
+	font-weight: bold;
+}
+.models p button a:hover
+{
+	color: red;
+}
+.models  i 
+{
+	font-size: 20px;
+	margin-top: 45px;
+   color: #fff;
+   animation-name: down;
+   animation-duration:10s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+}
+@keyframes down
+{
+	0%{color: red;}
+	25%{color: white;}
+	50%{color: blue;}
+	75%{color: yellow;}
+	100%{color: black;}
+
+}
+.modelY
+{
+	 width: 100%;
+    height: 950px;
+    background-image: url(pic2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+}
+.modelY h1
+{
+	margin-top: 130px;
+	font-family: "Rubik",sans-serif;
+	color: #393c41;
+	font-weight: bold;
+}
+.modelY span
+{
+	font-family: "Rubik",sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: #393c41;
+    box-sizing: border-box;
+}
+.modelY span b:hover
+{
+	text-decoration: underline;
+}
+.modelY p
+{
+	margin-top: 590px;
+
+}
+.modelY p button
+{
+	margin: 10px;
+	width: 180px;
+	height:30px;
+	background-color: transparent;
+	border: 1px solid black;
+    border-radius: 10px;
+}
+.modelY p button a 
+{
+	text-decoration: none;
+	color: black;
+	font-family:"Rubik",sans-serif;
+	font-weight: bold;
+}
+.modelY p button a:hover
+{
+	color:blue;
+}
+.modelY  i 
+{
+	font-size: 20px;
+	margin-top: 45px;
+   color: #fff;
+   animation-name: down;
+   animation-duration:10s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+}
+@keyframes down
+{
+	0%{color: red;}
+	25%{color: white;}
+	50%{color: blue;}
+	75%{color: yellow;}
+	100%{color: black;}
+
+}
+.modelZ
+{
+	 width: 100%;
+    height: 950px;
+    background-image: url(pic3.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+}
+.modelZ h1
+{
+	margin-top: 130px;
+	font-family: "Rubik",sans-serif;
+	color: #393c41;
+	font-weight: bold;
+}
+.modelZ span
+{
+	font-family: "Rubik",sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: #393c41;
+    box-sizing: border-box;
+}
+.modelZ span b:hover
+{
+	text-decoration: underline;
+}
+.modelZ p
+{
+	margin-top: 590px;
+
+}
+.modelZ p button
+{
+	margin: 10px;
+	width: 180px;
+	height:30px;
+	background-color: transparent;
+	border: 1px solid black;
+    border-radius: 10px;
+}
+.modelZ p button a 
+{
+	text-decoration: none;
+	color: black;
+	font-family:"Rubik",sans-serif;
+	font-weight: bold;
+}
+.modelZ p button a:hover
+{
+	color:red;
+}
+.modelZ  i 
+{
+	font-size: 20px;
+	margin-top: 45px;
+   color: #fff;
+   animation-name: down;
+   animation-duration:10s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+}
+@keyframes down
+{
+	0%{color: red;}
+	25%{color: white;}
+	50%{color: blue;}
+	75%{color: yellow;}
+	100%{color: black;}
+
+}
+.modeli
+{
+	 width: 100%;
+    height: 950px;
+    background-image: url(pic4.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+}
+.modeli h1
+{
+	margin-top: 130px;
+	font-family: "Rubik",sans-serif;
+	color: #393c41;
+	font-weight: bold;
+}
+.modeli span
+{
+	font-family: "Rubik",sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: #393c41;
+    box-sizing: border-box;
+}
+.modeli span b:hover
+{
+	text-decoration: underline;
+}
+.modeli p
+{
+	margin-top: 590px;
+
+}
+.modeli p button
+{
+	margin: 10px;
+	width: 180px;
+	height:30px;
+	background-color: transparent;
+	border: 1px solid black;
+    border-radius: 10px;
+}
+.modeli p button a 
+{
+	text-decoration: none;
+	color: black;
+	font-family:"Rubik",sans-serif;
+	font-weight: bold;
+}
+.modeli p button a:hover
+{
+	color: #fff;
+}
+.modeli  i 
+{
+	font-size: 20px;
+	margin-top: 45px;
+   color: #fff;
+   animation-name: down;
+   animation-duration:10s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+}
+@keyframes down
+{
+	0%{color: red;}
+	25%{color: white;}
+	50%{color: blue;}
+	75%{color: yellow;}
+	100%{color: black;}
+
+}
+.modelh
+{
+	 width: 100%;
+    height: 950px;
+    background-image: url(pic5.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+}
+.modelh h1
+{
+	margin-top: 130px;
+	font-family: "Rubik",sans-serif;
+	color: #393c41;
+	font-weight: bold;
+}
+.modelh span
+{
+	font-family: "Rubik",sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: #393c41;
+    box-sizing: border-box;
+}
+.modelh span b:hover
+{
+	text-decoration: underline;
+}
+.modelh p
+{
+	margin-top: 590px;
+
+}
+.modelh p button
+{
+	margin: 10px;
+	width: 180px;
+	height:30px;
+	background-color: transparent;
+	border: 1px solid black;
+    border-radius: 10px;
+}
+.modelh p button a 
+{
+	text-decoration: none;
+	color: black;
+	font-family:"Rubik",sans-serif;
+	font-weight: bold;
+}
+.modelh p button a:hover
+{
+	color:lightgrey;
+}
+.modelh  i 
+{
+	font-size: 20px;
+	margin-top: 45px;
+   color: #fff;
+   animation-name: down;
+   animation-duration:10s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+}
+@keyframes down
+{
+	0%{color: red;}
+	25%{color: white;}
+	50%{color: blue;}
+	75%{color: yellow;}
+	100%{color: black;}
+
+}
+.modelr
+{
+	 width: 100%;
+    height: 950px;
+    background-image: url(pic6.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+}
+.modelr h1
+{
+	margin-top: 130px;
+	font-family: "Rubik",sans-serif;
+	color: #393c41;
+	font-weight: bold;
+}
+.modelr span
+{
+	font-family: "Rubik",sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: #393c41;
+    box-sizing: border-box;
+}
+.modelr span b:hover
+{
+	text-decoration: underline;
+}
+.modelr p
+{
+	margin-top: 590px;
+
+}
+.modelr p button
+{
+	margin: 10px;
+	width: 180px;
+	height:30px;
+	background-color: transparent;
+	border: 1px solid black;
+    border-radius: 10px;
+}
+.modelr p button a 
+{
+	text-decoration: none;
+	color: black;
+	font-family:"Rubik",sans-serif;
+	font-weight: bold;
+}
+.modelr p button a:hover
+{
+	color: brown;
+}
+.modelr  i 
+{
+	font-size: 20px;
+	margin-top: 45px;
+   color: #fff;
+   animation-name: down;
+   animation-duration:10s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+}
+@keyframes down
+{
+	0%{color: red;}
+	25%{color: white;}
+	50%{color: blue;}
+	75%{color: yellow;}
+	100%{color: black;}
+
+}
+.modela
+{
+	 width: 100%;
+    height: 950px;
+    background-image: url(pic7.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+}
+.modela h1
+{
+	margin-top: 130px;
+	font-family: "Rubik",sans-serif;
+	color: #393c41;
+	font-weight: bold;
+}
+.modela span
+{
+	font-family: "Rubik",sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: #393c41;
+    box-sizing: border-box;
+}
+.modela span b:hover
+{
+	text-decoration: underline;
+}
+.modela p
+{
+	margin-top: 590px;
+
+}
+.modela p button
+{
+	margin: 10px;
+	width: 180px;
+	height:30px;
+	background-color: transparent;
+	border: 1px solid black;
+    border-radius: 10px;
+}
+.modela p button a 
+{
+	text-decoration: none;
+	color: black;
+	font-family:"Rubik",sans-serif;
+	font-weight: bold;
+}
+.modela p button:hover
+{
+	background-color: black;
+}
+.modela p button a:hover
+{
+	color: #fff;
+}
+.modela h5
+{
+	margin: 3px;
+	word-spacing: 5px;
+	font-family: arial;
+}
